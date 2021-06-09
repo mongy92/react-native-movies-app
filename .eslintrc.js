@@ -42,7 +42,7 @@ module.exports = {
     'react/no-array-index-key': 2,
     'react-hooks/rules-of-hooks': 1,
     'react-hooks/exhaustive-deps': 0,
-    'react/prop-types': 2,
+    'react/prop-types': 0,
     'arrow-body-style': [0, 'as-needed'],
     'no-dupe-keys': 2,
     '@typescript-eslint/explicit-module-boundary-types': 'off',
