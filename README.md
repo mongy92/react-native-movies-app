@@ -75,15 +75,19 @@ Also I am using `eslint` and prettier for better code formatting alongside [husk
 
 ## Screenshots (IOS)
 
-<p float="left"><a href="https://ibb.co/BC2WfFc"><img src="https://i.ibb.co/x7q92dX/ios1.png" height="400" alt="ios1" border="0"></a>
-<a href="https://ibb.co/hZgvvF6"><img src="https://i.ibb.co/pR1ppj7/ios2.png" alt="ios2" height="400" border="0"></a>
+<p float="left">
+<a href="https://ibb.co/BC2WfFc">
+<img src="https://i.ibb.co/x7q92dX/ios1.png" height="400" alt="ios1" border="0">
+</a>
+<a href="https://ibb.co/hZgvvF6">
+<img src="https://i.ibb.co/pR1ppj7/ios2.png" alt="ios2" height="400" border="0">
+</a>
 </p>
 
 ## Screenshots (Android)
 
-<p float="left"><a href="https://ibb.co/3Bgrpxt">
-<img src="https://i.ibb.co/3Bgrpxt/android1.jpg" alt="android1" height="400" border="0"></a>
+<p float="left">
 
-<a href="https://ibb.co/1z6MC1B"><img src="https://i.ibb.co/1z6MC1B/android2.jpg" alt="android2"height="400" border="0"></a>
+<a href="https://ibb.co/jLZCG30"><img src="https://i.ibb.co/jLZCG30/android1.png" alt="android1" border="0"></a> <a href="https://ibb.co/mGksbDT"><img src="https://i.ibb.co/mGksbDT/android2.png" alt="android2" border="0"></a>
 
 </p>
