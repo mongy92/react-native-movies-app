@@ -75,19 +75,10 @@ Also I am using `eslint` and prettier for better code formatting alongside [husk
 
 ## Screenshots (IOS)
 
-<p float="left">
-<a href="https://ibb.co/BC2WfFc">
-<img src="https://i.ibb.co/x7q92dX/ios1.png" height="400" alt="ios1" border="0">
-</a>
-<a href="https://ibb.co/hZgvvF6">
-<img src="https://i.ibb.co/pR1ppj7/ios2.png" alt="ios2" height="400" border="0">
-</a>
-</p>
+![ios-list](https://i.ibb.co/x7q92dX/ios1.png)
+![ios-details](https://i.ibb.co/pR1ppj7/ios2.png)
 
 ## Screenshots (Android)
 
-<p float="left">
-
-<a href="https://ibb.co/jLZCG30"><img src="https://i.ibb.co/jLZCG30/android1.png" alt="android1" border="0"></a> <a href="https://ibb.co/mGksbDT"><img src="https://i.ibb.co/mGksbDT/android2.png" alt="android2" border="0"></a>
-
-</p>
+![android-list](https://i.ibb.co/k0xg7Sf/Screenshot-2021-06-10-19-19-03-79.jpg)
+![android-details](https://i.ibb.co/RDdP6Ld/Screenshot-2021-06-10-19-19-19-49-730ca367296380123f9efa87df6ae891.jpg)
