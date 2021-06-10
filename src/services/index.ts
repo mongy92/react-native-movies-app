@@ -30,3 +30,12 @@ export const fetchGenres = async () => {
     throw new Error(error);
   }
 };
+
+export const fetchCredits = async (movieId: number) => {
+  try {
+    const response = await axios_client.get(`movie/${movieId}/credits`);
+    return response.data;
+  } catch (error) {
+    throw new Error(error);
+  }
+};
