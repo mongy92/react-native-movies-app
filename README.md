@@ -1,6 +1,12 @@
+
+
+
 # react-native-movies-app
 
 A Demo Application using react-query for listing movies and view the movie details.
+
+https://user-images.githubusercontent.com/13261643/121578044-8395c580-ca2a-11eb-943b-ff98bfc74cea.mov
+
 
 ## IMPORTANT NOTE
 
@@ -75,10 +81,12 @@ Also I am using `eslint` and prettier for better code formatting alongside [husk
 
 ## Screenshots (IOS)
 
-![ios-list](https://i.ibb.co/x7q92dX/ios1.png)
-![ios-details](https://i.ibb.co/pR1ppj7/ios2.png)
+![ios1](https://user-images.githubusercontent.com/13261643/121578175-ae801980-ca2a-11eb-9cc2-ab04e8838f53.png)
+![ios2](https://user-images.githubusercontent.com/13261643/121578177-b049dd00-ca2a-11eb-88d6-fd318d1a48a3.png)
+
 
 ## Screenshots (Android)
 
-![android-list](https://i.ibb.co/k0xg7Sf/Screenshot-2021-06-10-19-19-03-79.jpg)
-![android-details](https://i.ibb.co/RDdP6Ld/Screenshot-2021-06-10-19-19-19-49-730ca367296380123f9efa87df6ae891.jpg)
+![android1](https://user-images.githubusercontent.com/13261643/121578212-b8098180-ca2a-11eb-955e-6532747635c2.jpeg)
+![android2](https://user-images.githubusercontent.com/13261643/121578219-bb9d0880-ca2a-11eb-805f-8343325bae10.jpeg)
+
