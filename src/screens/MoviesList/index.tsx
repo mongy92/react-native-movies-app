@@ -2,9 +2,9 @@ import { NavigationProp, useNavigation } from '@react-navigation/core';
 import React, { useState, useCallback, useEffect } from 'react';
 import { FlatList, ActivityIndicator, Text, Platform } from 'react-native';
 import { useInfiniteQuery, useQuery } from 'react-query';
-import { COLORS } from '../../common';
 import MovieCard from '../../components/MovieCard';
 import MoviesFilterTabs from '../../components/MoviesFilterTabs';
+import Spinner from '../../components/Spinner';
 import { MainStackParams } from '../../navigation/MainStack';
 import { fetchGenres, fetchMoviesList } from '../../services';
 import { GenresResponse, Movie, MoviesFilter, MoviesResponse } from '../../utils/types';
@@ -54,7 +54,7 @@ const MoviesList = () => {
   }, [data]);
 
   if (isLoading || genresLoading) {
-    return <ActivityIndicator color={COLORS.green} />;
+    return <Spinner />;
   }
   if (error || genresError) {
     return <Text>Something went Wrong ...!</Text>;
