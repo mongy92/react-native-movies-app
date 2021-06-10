@@ -32,7 +32,11 @@ export default () => (
     <MainStack.Screen
       component={MovieDetails}
       name="MovieDetails"
-      options={{ headerTransparent: true, title: '' }}
+      options={{
+        headerTransparent: true,
+        title: '',
+        headerLeftContainerStyle: styles.headerLeftContainerStyle,
+      }}
     />
   </MainStack.Navigator>
 );

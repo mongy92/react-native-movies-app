@@ -7,4 +7,7 @@ export default StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+  headerLeftContainerStyle: {
+    marginLeft: 20,
+  },
 });
