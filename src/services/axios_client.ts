@@ -1,7 +1,5 @@
 import axios from 'axios';
-
-export const BASE_URL = 'https://api.themoviedb.org/3';
-export const API_KEY = '4f298a53e552283bee957836a529baec';
+import { API_KEY, BASE_URL } from '../common';
 
 const axios_client = axios.create({
   baseURL: BASE_URL,
