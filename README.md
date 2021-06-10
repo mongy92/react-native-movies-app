@@ -87,6 +87,6 @@ Also I am using `eslint` and prettier for better code formatting alongside [husk
 
 ## Screenshots (Android)
 
-![android1](https://user-images.githubusercontent.com/13261643/121578212-b8098180-ca2a-11eb-955e-6532747635c2.jpeg)
 ![android2](https://user-images.githubusercontent.com/13261643/121578219-bb9d0880-ca2a-11eb-805f-8343325bae10.jpeg)
+![android1](https://user-images.githubusercontent.com/13261643/121578212-b8098180-ca2a-11eb-955e-6532747635c2.jpeg)
 
