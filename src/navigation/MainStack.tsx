@@ -35,7 +35,6 @@ export default () => (
       options={{
         headerTransparent: true,
         title: '',
-        headerLeftContainerStyle: styles.headerLeftContainerStyle,
       }}
     />
   </MainStack.Navigator>
