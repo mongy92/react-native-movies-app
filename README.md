@@ -81,12 +81,17 @@ Also I am using `eslint` and prettier for better code formatting alongside [husk
 
 ## Screenshots (IOS)
 
-![ios1](https://user-images.githubusercontent.com/13261643/121578175-ae801980-ca2a-11eb-9cc2-ab04e8838f53.png)
-![ios2](https://user-images.githubusercontent.com/13261643/121578177-b049dd00-ca2a-11eb-88d6-fd318d1a48a3.png)
+<p float='left'>
+<img src="https://user-images.githubusercontent.com/13261643/121578175-ae801980-ca2a-11eb-9cc2-ab04e8838f53.png"  height="500">
+<img src="https://user-images.githubusercontent.com/13261643/121578177-b049dd00-ca2a-11eb-88d6-fd318d1a48a3.png"  height="500">
+<p/>
 
 
 ## Screenshots (Android)
 
-![android2](https://user-images.githubusercontent.com/13261643/121578219-bb9d0880-ca2a-11eb-805f-8343325bae10.jpeg)
-![android1](https://user-images.githubusercontent.com/13261643/121578212-b8098180-ca2a-11eb-955e-6532747635c2.jpeg)
+<p float='left'>
+<img src="https://user-images.githubusercontent.com/13261643/121578219-bb9d0880-ca2a-11eb-805f-8343325bae10.jpeg"  height="500">
+<img src="https://user-images.githubusercontent.com/13261643/121578212-b8098180-ca2a-11eb-955e-6532747635c2.jpeg"  height="500">
+<p/>
+
 
