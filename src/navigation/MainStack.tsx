@@ -4,13 +4,14 @@ import Splash from '../screens/Splash';
 import MoviesList from '../screens/MoviesList';
 import MovieDetails from '../screens/MovieDetails';
 import styles from './styles';
+import { Genre, Movie } from '../utils';
 
 export type MainStackParams = {
   Splash: undefined;
   MoviesList: undefined;
   MovieDetails: {
-    id: number;
-    name: string;
+    movie: Movie;
+    genres: Genre[];
   };
 };
 

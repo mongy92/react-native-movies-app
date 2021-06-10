@@ -8,11 +8,15 @@ import styles from './styles';
 interface Props {
   movie: Movie;
   genres: Genre[];
+  onPress: (movie: Movie, genres: Genre[]) => void;
 }
 
-const MovieCard: React.FC<Props> = ({ movie, genres }) => {
+const MovieCard: React.FC<Props> = ({ movie, genres, onPress }) => {
   return (
-    <TouchableOpacity style={styles.card} activeOpacity={0.7}>
+    <TouchableOpacity
+      style={styles.card}
+      activeOpacity={0.7}
+      onPress={() => onPress(movie, genres)}>
       <Image source={getImageSource(movie.poster_path)} style={styles.image} />
       <View style={styles.content}>
         <Text style={styles.title}>{movie.title}</Text>

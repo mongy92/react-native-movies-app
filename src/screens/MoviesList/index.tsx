@@ -1,14 +1,17 @@
+import { NavigationProp, useNavigation } from '@react-navigation/core';
 import React, { useState, useCallback, useEffect } from 'react';
 import { FlatList, ActivityIndicator, Text, Platform } from 'react-native';
 import { useInfiniteQuery, useQuery } from 'react-query';
 import { COLORS } from '../../common';
 import MovieCard from '../../components/MovieCard';
 import MoviesFilterTabs from '../../components/MoviesFilterTabs';
+import { MainStackParams } from '../../navigation/MainStack';
 import { fetchGenres, fetchMoviesList } from '../../services';
 import { GenresResponse, Movie, MoviesFilter, MoviesResponse } from '../../utils/types';
 import styles from './styles';
 
 const MoviesList = () => {
+  const navigation = useNavigation<NavigationProp<MainStackParams>>();
   const [filter, setFilter] = useState<MoviesFilter>(MoviesFilter.UPCOMMING);
 
   const { data, isLoading, error, refetch, hasNextPage, isFetchingNextPage, fetchNextPage } =
@@ -65,7 +68,11 @@ const MoviesList = () => {
         keyExtractor={(item) => `item--${item.id}`}
         data={getFlattenArray()}
         renderItem={({ item }) => (
-          <MovieCard movie={item} genres={getGeneresByIds(item.genre_ids)} />
+          <MovieCard
+            movie={item}
+            genres={getGeneresByIds(item.genre_ids)}
+            onPress={(movie, genres) => navigation.navigate('MovieDetails', { movie, genres })}
+          />
         )}
         onEndReachedThreshold={Platform.OS === 'android' ? 0.2 : 0}
         onEndReached={() => {

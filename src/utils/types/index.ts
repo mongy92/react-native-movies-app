@@ -11,6 +11,7 @@ export interface Movie {
   release_date: string;
   title: string;
   vote_average: number;
+  overview: string;
 }
 
 export interface MoviesResponse {
