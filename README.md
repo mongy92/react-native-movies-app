@@ -8,10 +8,21 @@ A Demo Application using react-query for listing movies and view the movie detai
 https://user-images.githubusercontent.com/13261643/121578044-8395c580-ca2a-11eb-943b-ff98bfc74cea.mov
 
 
-## IMPORTANT NOTE
+## Used API's
 
 I am using API provided by
 https://developers.themoviedb.org/3
+
+ - Upcomming Movies  : `${BASE_URL}/movie/upcomming?api_key=${API_KEY}&page=${page}`
+ - Top Rated Movies : `${BASE_URL}L/movie/top_rated?api_key=${API_KEY}&page=${page}`
+ - Popular Movies : `${BASE_URL}/movie/popular?api_key=${API_KEY}&page=${page}`
+ - Genres : `${BASE_URL}/genre/movie/list?api_key=${API_KEY}`
+ - Credits : `${BASE_URL}/movie/${movieId}/credits?api_key=${API_KEY}`
+    `
+
+
+
+`
 
 ## Main technologies used
 
